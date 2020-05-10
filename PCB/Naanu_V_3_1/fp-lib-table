@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name BluePill)(type KiCad)(uri ${KIPRJMOD}/BluePill.pretty)(options "")(descr ""))
+  (lib (name Buck)(type KiCad)(uri ${KIPRJMOD}/Buck.pretty)(options "")(descr ""))
+)
