@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/deadpool/Kicad/Micromouse/Micromouse.sch</source>
+    <date>Sat 30 Nov 2019 17:55:46 +0545</date>
+    <tool>Eeschema 5.1.5-52549c5~84~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Micromouse.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>Vl530lx</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="VLX" part="Vl530lx" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE3495A</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>Vl530lx</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="VLX" part="Vl530lx" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE38A10</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>Vl530lx</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="VLX" part="Vl530lx" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE38E1A</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>Vl530lx</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="VLX" part="Vl530lx" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE3921B</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MPU9250</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Mpu" part="MPU9250" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE4029A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BLUE</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE413D7</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE4208F</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>X3X4</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE50132</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>X1X2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE507BA</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE54B5D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE57D91</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>Buck</value>
+      <libsource lib="Buck" part="Buck" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE69675</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CELL_3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE6FC21</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CELL_2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE7036F</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CELL_1</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE706C4</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push_DPDT</value>
+      <footprint>Button_Switch_THT:SW_NKK_G1xJP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push_DPDT" description="Momentary Switch, dual pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE7EA67</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>POWER_RAIL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE97B57</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>I2C</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEACFD0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Buck" part="Buck">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Buck</field>
+      </fields>
+      <pins>
+        <pin num="~" name="IN+" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mpu" part="MPU9250">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPU9250</field>
+      </fields>
+      <pins>
+        <pin num="~" name="AD0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_DPDT">
+      <description>Momentary Switch, dual pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_DPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VLX" part="Vl530lx">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Vl530lx</field>
+      </fields>
+      <pins>
+        <pin num="~" name="XSHUT" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Buck">
+      <uri>/home/deadpool/Kicad/Micromouse/Buck.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mpu">
+      <uri>/home/deadpool/Kicad/Micromouse/Mpu.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="VLX">
+      <uri>/home/deadpool/Kicad/Micromouse/VLX.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-Pad2)">
+      <node ref="U1" pin="~"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J3-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J4-Pad2)">
+      <node ref="J5" pin="1"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="5" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="6" name="Net-(SW1-Pad4)">
+      <node ref="SW1" pin="4"/>
+    </net>
+    <net code="7" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="SW1" pin="5"/>
+    </net>
+    <net code="8" name="Net-(J6-Pad2)">
+      <node ref="SW1" pin="6"/>
+      <node ref="U6" pin="~"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad2)">
+      <node ref="U4" pin="~"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad1)">
+      <node ref="U5" pin="~"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="~"/>
+    </net>
+    <net code="12" name="Net-(J6-Pad1)">
+      <node ref="SW1" pin="1"/>
+      <node ref="U6" pin="~"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="13" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="14" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="16" name="Net-(J6-Pad4)">
+      <node ref="U4" pin="~"/>
+      <node ref="U2" pin="~"/>
+      <node ref="U5" pin="~"/>
+      <node ref="J6" pin="4"/>
+      <node ref="U3" pin="~"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="~"/>
+      <node ref="U6" pin="~"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad1)">
+      <node ref="U6" pin="~"/>
+      <node ref="U2" pin="~"/>
+      <node ref="U1" pin="~"/>
+      <node ref="U5" pin="~"/>
+      <node ref="U4" pin="~"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J6" pin="3"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U3" pin="~"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="18" name="Net-(J7-Pad2)">
+      <node ref="U5" pin="~"/>
+      <node ref="U1" pin="~"/>
+      <node ref="U3" pin="~"/>
+      <node ref="J7" pin="2"/>
+      <node ref="U2" pin="~"/>
+      <node ref="U4" pin="~"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad~)">
+      <node ref="U4" pin="~"/>
+      <node ref="U1" pin="~"/>
+      <node ref="U3" pin="~"/>
+      <node ref="U5" pin="~"/>
+      <node ref="U2" pin="~"/>
+    </net>
+    <net code="20" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="21" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="22" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="23" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+  </nets>
+</export>
