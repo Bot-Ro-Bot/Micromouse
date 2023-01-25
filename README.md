@@ -8,3 +8,17 @@ the furtherance of the Tremaux algorithm by employing a potential value algorith
 Here are the three different versions of micromouse designed and fabricated. The bot at the center was used during the IMC-2020.
 ![bots](/Figures/bots.png)
 
+'''
+sh
+
+cite:
+
+@article{rijalinternational,
+  title={International Journal of Advanced Engineering},
+  author={Rijal, Sanjay and Nepal, Rabin and Lwagun, Rhimesh and Pati, Rohit and Bhatta, Janardan},
+  volume={3},
+  issue={2},
+  year={2020}
+}
+
+'''
