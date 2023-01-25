@@ -9,8 +9,6 @@ Here are the three different versions of micromouse designed and fabricated. The
 ![bots](/Figures/bots.png)
 
 ```
-sh
-
 cite:
 
 @article{rijalinternational,
